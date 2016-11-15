@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="fr" >
+<html lang="fr">
 	<head>
 		<title>Exercice Angular</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body ng-app="mainApp">		
-		<ors-header></ors-header>
-		<ors-body></ors-body>
-		<ors-footer></ors-footer>
-		<script src="../bower_components/angular/angular.min.js"></script>
+	<body ng-app="mainApp">
+		<ors-layout>
+			<ors-header></ors-header>
+			<ors-body></ors-body>
+			<ors-footer></ors-footer>
+		</ors-layout>
+		<script src="../bower_components/angular/angular.js"></script>
+		<script src="../bower_components/angular-route/angular-route.js"></script>
 		<script src="app.js"></script>
+		<script src="clone.js"></script>
+		<script src="ors-widget/ors-widget.js"></script>
 	</body>
 </html>
