@@ -1,14 +1,14 @@
-[menu] li {
+.ors-menu li {
 	display: inline-block;
 	padding: 20px 0px;
 	background-color: hsla(0, 0%, 90%, 1);
 }
 
-[menu] li:hover {
+.ors-menu li:hover {
 	background-color: hsla(0, 20%, 80%, 1);
 }
 
-[menu] a {
+.ors-menu a {
 	padding: 20px;
 }
 

@@ -1,7 +1,12 @@
 (function() {
 	'use strict';
 
-	var app = angular.module('mainApp', ['ors-widget', 'ngRoute']);
+	var app = angular.module('mainApp', [
+		'ngRoute',
+		'angularSpinner',
+		'ors-widget',
+		'ors-ajax',
+		'ors-http']);
 	
 	app.config(['$routeProvider', function($routeProvider) {
 
